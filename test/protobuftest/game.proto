@@ -1,0 +1,17 @@
+syntax='proto2';
+
+message CProtoClientHead
+{
+	enum emRouteType
+	{		
+		emRT_Common = 0;			//按惯例:大厅消息路由到大厅服，游戏消息路由到已登录的游戏服	
+		emRT_ByRoomID = 1;			//按房间id寻找游戏服
+		emRT_ByLatestGame = 2;		//按玩法寻找最近启动的游戏服
+		emRT_ByGameType = 3;		//指定玩法或不指定玩法广播给游戏服		
+		emRT_ByAll = 4;				//广播给所有游戏服以及大厅服
+	}
+
+	optional int32 route_type = 1;	//路由类型
+	optional int32 game_type = 2;	//玩法类型
+	optional int32 room_id = 3;		//房间id
+}

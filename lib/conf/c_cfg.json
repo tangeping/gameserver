@@ -1,0 +1,24 @@
+{
+	"systemRoomCfg":[
+		{
+			"id":3, "type":"C3","count":1000, "seat":4, "maxplayer":4
+		},
+		{
+			"id":4, "type":"C4","count":1000, "seat":4, "maxplayer":4
+		},
+		{
+			"id":5, "type":"C5","count":1000, "seat":4, "maxplayer":4
+		}
+	],
+	"cardCost":[
+		{
+			"game_max":"4",  "aa_pay":"2", "creater_pay_2":"2", "creater_pay_3":"2", "creater_pay_4":"2"
+		},
+		{
+			"game_max":"8",  "aa_pay":"1", "creater_pay_2":"2", "creater_pay_3":"3", "creater_pay_4":"4"
+		},
+		{
+			"game_max":"16", "aa_pay":"2", "creater_pay_2":"4", "creater_pay_3":"6", "creater_pay_4":"8"
+		}
+	]
+}

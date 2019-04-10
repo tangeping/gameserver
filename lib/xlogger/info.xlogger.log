@@ -1,0 +1,119 @@
+[2018-02-01T18:30:33.654] [INFO] info - error
+[2018-02-01T18:33:49.031] [INFO] info - error connecting: Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'192.168.1.142' (using password: NO)
+    at Handshake.Sequence._packetToError (/work/gitrepo/project/gameserver/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/work/gitrepo/project/gameserver/node_modules/mysql/lib/protocol/sequences/Handshake.js:130:18)
+    at Protocol._parsePacket (/work/gitrepo/project/gameserver/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/work/gitrepo/project/gameserver/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/work/gitrepo/project/gameserver/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/work/gitrepo/project/gameserver/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/work/gitrepo/project/gameserver/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/work/gitrepo/project/gameserver/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at Connection.connect (/work/gitrepo/project/gameserver/node_modules/mysql/lib/Connection.js:130:18)
+    at new DBMysql (/work/gitrepo/project/gameserver/lib/db/dbmysql.js:12:10)
+    at Object.<anonymous> (/work/gitrepo/project/gameserver/lib/xlogger/xlogger.js:3:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+[2018-02-01T18:33:49.034] [INFO] info - error
+[2018-02-01T19:33:54.020] [INFO] info - error connecting: Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'192.168.1.128' (using password: NO)
+    at Handshake.Sequence._packetToError (/work/gitrepo/project/gameserver/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/work/gitrepo/project/gameserver/node_modules/mysql/lib/protocol/sequences/Handshake.js:130:18)
+    at Protocol._parsePacket (/work/gitrepo/project/gameserver/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/work/gitrepo/project/gameserver/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/work/gitrepo/project/gameserver/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/work/gitrepo/project/gameserver/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:188:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Protocol._enqueue (/work/gitrepo/project/gameserver/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Protocol.handshake (/work/gitrepo/project/gameserver/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at Connection.connect (/work/gitrepo/project/gameserver/node_modules/mysql/lib/Connection.js:130:18)
+    at new DBMysql (/work/gitrepo/project/gameserver/lib/db/dbmysql.js:12:10)
+    at Object.<anonymous> (/work/gitrepo/project/gameserver/lib/xlogger/xlogger.js:3:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+[2018-02-01T19:33:54.024] [INFO] info - error
+[2018-02-01T19:34:23.086] [INFO] info - [ RowDataPacket {
+    Id: 100386,
+    login_type: 1,
+    OpenId: '1504092855',
+    platform: '',
+    device_id: '1504092855',
+    Nike: '游客:3364',
+    Sex: 0,
+    Provice: '',
+    City: '',
+    Country: '',
+    HeadImageUrl: '',
+    UnionId: '1504092855',
+    NumsCard1: 0,
+    NumsCard2: 200,
+    NumsCard3: 0,
+    LastLoginTime: 1504530057,
+    RegTime: 1504193563,
+    New: 0,
+    Gm: 0,
+    user_type: 0,
+    Invite: 0,
+    Black: 0,
+    last_share: 0,
+    status: 0,
+    login_ip: null,
+    real_name: null,
+    id_number: null,
+    phone: null,
+    game_count: 0,
+    win_count: 0,
+    hu_count: 0,
+    dianpao_count: 0,
+    invite_time: 0,
+    activity_invite: 0,
+    is_obtain: 0 } ]
+[2018-02-01T19:37:15.509] [INFO] info - [ RowDataPacket {
+    Id: 100386,
+    login_type: 1,
+    OpenId: '1504092855',
+    platform: '',
+    device_id: '1504092855',
+    Nike: '游客:3364',
+    Sex: 0,
+    Provice: '',
+    City: '',
+    Country: '',
+    HeadImageUrl: '',
+    UnionId: '1504092855',
+    NumsCard1: 0,
+    NumsCard2: 200,
+    NumsCard3: 0,
+    LastLoginTime: 1504530057,
+    RegTime: 1504193563,
+    New: 0,
+    Gm: 0,
+    user_type: 0,
+    Invite: 0,
+    Black: 0,
+    last_share: 0,
+    status: 0,
+    login_ip: null,
+    real_name: null,
+    id_number: null,
+    phone: null,
+    game_count: 0,
+    win_count: 0,
+    hu_count: 0,
+    dianpao_count: 0,
+    invite_time: 0,
+    activity_invite: 0,
+    is_obtain: 0 } ]
